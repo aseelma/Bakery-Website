@@ -1,0 +1,588 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="menuStyle.css">
+    <link rel="shortcut icon" type="x-icon"href="menulogo.jpg">
+    <title>Bakery Menu</title>
+
+
+</head>
+<body> 
+
+    <div class="container mt-5 mb-5" >
+      <div class="row myColor mb-3 border rounded-3 fixed-top menu">
+        <div class="col-6 header">
+          <h1 class=" p-3 mt-3">OUR MENU</h1>
+        </div>
+        <div class="col-6 mt-2 table1">
+          
+            <div class=" it1" style="width: 35px;"><a href="#bread">Breads</a></div>
+            <div class=" it2" style="width: 30px;"><a href="#cakes"> Cakes</a></div>
+            <div class=" it3" style="width: 37px;"><a href="#sweets"> Sweets</a></div>
+            <div class=" it4" style="width: 35px;"><a href="#drinks"> Drinks</a></div>
+            <div class=" it5"><a href="#sand">Sandwiches</a></div>
+            <div class=" it7" style="width: 10px;"><a href="finalProject.html" target="_blank" ><ion-icon name="home"></ion-icon></a></div>
+            <div class=" it6"><a href="cartPage.html" target="_blank" ><ion-icon name="cart" class="list"></ion-icon><sup>(<span id="totalItems">0</span>)</sup></a></div>
+        </div>
+      </div>
+ 
+      <div class="space"></div>
+
+        <h3 class="mb-5 p-3 rounded rounded-3 d-inline-block myColor" id="bread"> Breads: </h3>
+        <div class="row mb-5 box1" > 
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+            <img src="bread.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Bread</h5>
+              <div class="row">
+                <div class="col-6"><span class="card-text"> 2$</span></div>
+              <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="JerusalemBagels.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Jerusalem Bagels</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 1$ per each one$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="safeha.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Safeha</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 1$ per each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="manaqeesh1.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Manaqeesh Za'tar</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 1$ per each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+            <img src="manaqeesh2.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Cheese Manaqeesh</h5>
+              <div class="row">
+                <div class="col-6"><span class="card-text"> 1$ per each one</span></div>
+              <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="sourdoughbread.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sourdough Bread</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> $</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="croissants.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Croissants</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 3$ per each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="tortilla.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Tortilla</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 10$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<div class="myLine"></div>
+        
+
+        <h3 class="mb-5 mt-3 p-3 rounded rounded-3 d-inline-block myColor" id="sand"> Sandwiches: </h3>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="hotdog.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Hot Dog Sandwich</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 2$ for each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="cheese.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cheese Sandwich</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 2$ for each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="falafel.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Falafel Sandwich</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 12$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="shawerma.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Shawerma Sandwich</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 8$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-md mt-4">
+              <div class="card h-100" style="width: 19rem;">
+                <img src="salami.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Salami Sandwich</h5>
+                  <div class="row">
+                    <div class="col-6"><span class="card-text"> 5$</span></div>
+                  <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+
+        </div>
+<div class="myLine"></div>
+        
+
+        <h3 class="mb-5 mt-3 p-3 rounded rounded-3 d-inline-block myColor" id="sweets"> Sweets: </h3>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="box.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Box of Doughnuts</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 15$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="vanilla.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Vanilla Doughnuts</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 1$ for each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="chocolate.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Doughnuts</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 2$ for each one </span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="stuffeddou.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Stuffed Doughnuts with souse</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 4$ for each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="cupcake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cupcake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 2$ for each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="boxcupcake2.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Box of Cupcakes</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 20$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="goldenballs.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Golden Balls</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 10$ for each one </span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="eclair.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Eclair</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 2$ for each one</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+<div class="myLine"></div>
+        
+
+        <h3 class="mb-5 mt-3 p-3 rounded rounded-3 d-inline-block myColor" id="drinks"> Drinks: </h3>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="orange.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Orange Juice</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 5$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="strawberry.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Strawberry Juice</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 5$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="watermelon.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Watermelon Juice</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 3$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="pineapple.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Pinapple Juice</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 6$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="icecoffee.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Iced coffee </h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 8$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="icedlatte.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Iced Latte </h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 8$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="icedtea.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Iced tea </h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 3$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="coffee.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Coffee</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 3$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+<div class="myLine"></div>
+        
+
+        <h3 class="mb-5 mt-3 p-3 rounded rounded-3 d-inline-block myColor" id="cakes"> Cakes: </h3>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+            <img src="cakes.jpeg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Fruit Cake</h5>
+              <div class="row">
+                <div class="col-6"><span class="card-text"> 15$</span></div>
+              <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="vanillaCake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Vanilla Cake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 10$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="chocoCake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Cake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 15$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="berryCake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Berry Cake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 25$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+            <img src="lotusCake.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Lotus Cake</h5>
+              <div class="row">
+                <div class="col-6"><span class="card-text"> 20$</span></div>
+              <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="oreoCake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Oreo Cake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 28$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="carrotCake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Carrot Cake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 12$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md mt-4">
+            <div class="card h-100" style="width: 19rem;">
+              <img src="weddingCake.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Wedding Cake</h5>
+                <div class="row">
+                  <div class="col-6"><span class="card-text"> 150$</span></div>
+                <div class="col-6"><button class="btn btn-primary" onclick="countClicks()">Add To Card</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script>
+      let count=0;
+      const totalItems = document.getElementById("totalItems"); 
+      function countClicks()
+      {
+        count = count+1;
+        totalItems.innerHTML = count;
+      }
+    </script>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

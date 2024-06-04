@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Chela+One&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Ysabeau+Infant:wght@300&display=swap');
+
+*
+{
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bolder;
+}
+
+h1
+{
+    font-family: 'Caveat', cursive;
+}
+
+.myColor
+{
+  background-color: rgb(249, 227, 231);
+  color:rgb(175, 81, 100);
+  font-weight: bolder;
+  border: 1px solid rgb(159, 75, 92);
+}
+
+.myColor2
+{
+  background-color:  rgb(204, 126, 142);
+  color: white;
+  border: ;
+  
+}
+
+.table1
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto ;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+.table1 a 
+{
+
+  border-radius: 10px;
+  padding: 10px;
+  width: 15px;
+  text-align: center;
+  align-items: center;
+  background-color:  rgb(204, 126, 142);
+  text-decoration: none;
+  color: white;
+}
+
+.table1 div
+{
+  text-align: center;
+  width: 70px;
+  height: 20px;
+  margin:10px;
+}
+
+.myLine
+{
+  width: 100%;
+  height: 2px;
+  background-color: rgb(167, 81, 99);
+  margin-bottom:20px;
+}
+
+img
+{
+  width: 100px;
+  height: 400px;
+}
+
+.sticky
+{
+  position: sticky;
+  top:0px;
+}
+
+
+.space
+{
+  height: 100px;
+
+}
+
+body
+{
+  background-color: rgb(255, 240, 244);
+}
+
+
+
+
+@media screen and (max-width:1000px)
+{
+.menu
+{
+    /* height: 85px; */
+    padding:5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header list1";
+    
+}
+
+.space
+{
+    height: 120px;
+}
+
+.header
+{
+  grid-area: header;
+}
+
+.table1
+{
+  height: auto;
+  grid-area: list1;
+  padding: 10px;
+  display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: 
+    "it1 it2 it3"
+    "it4 it5 "
+    "it7 it6"
+    ;
+    grid-gap:10px;
+}
+
+it1
+{
+  width:35px;
+  
+}
+
+it2
+{
+  width:35px;
+}
+
+it3
+{
+  width:35px;
+}
+it4
+{
+  width:35px;
+}
+it5
+{
+  width:35px;
+}
+it6
+{
+  width:35px;
+}
+it7
+{
+  width:35px;
+}
+
+
+}

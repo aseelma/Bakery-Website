@@ -1,0 +1,420 @@
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="shortcut icon" type="x-icon"href="orderlogo.jpg">
+    <link rel="stylesheet" href="orderStyle.css">
+    <title>Order Page</title>
+
+
+<style>
+ 
+
+</style>
+
+</head>
+<body>
+
+    <div class="container mt-5 home"><a href="finalProject.html" target="_blank"><ion-icon name="home"></ion-icon></a></div>
+    <div class="container mt-5 home"><a href="cartPage.html" target="_blank"><ion-icon name="cart"></ion-icon></a></div>
+
+
+    <div class="container" >
+        <h1 class="display-3 text-center mt-3">Order Page  </h1>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 mt-2">
+                        <div class="form-label">
+                            <label for="name"> Enter Your Name:</label>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Enter your Full Name" class="form-control" id="name" required="required" >
+                        </div>
+                    </div> 
+                    
+        
+                    <div class="col-lg-6 mt-2">
+                        <div class="form-label">
+                            <label for="phone"> Your phone number:</label>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="eg. +00 123 456 7899" class="form-control" id="phone" required >
+                        </div>
+                    </div> 
+        
+                </div> 
+        
+                <div class="row">
+                    <div class="col-md-6 mt-2">
+                            <div class="form-label">
+                                <label for="email"> Your Email</label>
+                            </div>
+                            <div>
+                                <input type="text" placeholder="eg. Ali@gmail.com" class="form-control " id="email" >
+                            </div>
+                        </div> 
+                    <div class="col-md-6 mt-2">
+                            <div class="form-label">
+                                <label for="email"> Password</label>
+                            </div>
+                            <div>
+                                <input type="password" class="form-control" id="email" >
+                            </div>
+                        </div> 
+                </div>       
+                        
+                <div class="row mb-5 ">
+                    <div class="col-md-12 mt-2">
+                        <div class="form-label">
+                            <label for="address"> Enter your address:</label>
+                        </div>
+                        <div class="input-group">
+                            <select name="" id="address" class="form-select" required="required">
+                                <option value="" hidden aria-readonly="true">Choose your city</option>
+                                <option value="">Hebron</option>
+                                <option value="">Nablus</option>
+                                <option value="">Jerusalem</option>
+                                <option value="">Jinen</option>
+                                <option value="">Ramallah</option>
+                                <option value="">Bethlahem</option>
+                                <option value="">Gaza</option>
+                                <option value="">Jerusalem</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="street#" required="required">    
+                        </div>
+                    </div>
+                </div>  
+                
+        
+            </div>
+
+
+            <div class="col-md-4 bg-light border border-1 rounded rounded-3 p-5 ">
+                <div class="row">
+                    <h1>Order Summary</h1>
+                    <div class="col-9">
+                        <div>Sub total</div>
+                    </div>
+                    <div class="col-3">
+                        <label for="">100$</label>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-9">
+                        <div>Shipping</div>
+                    </div>
+                    <div class="col-3">
+                        <label for="">5$</label>
+                    </div>
+                </div>
+                <div class="row mt-4 border-3 p-2 border rounded rounded-5 total">
+                    <div class="col-9">
+                        <div>Total:</div>
+                    </div>
+                    <div class="col-3">
+                        <label for="">105$</label>
+                    </div>
+                </div>
+
+
+                
+                
+
+            </div>
+
+        </div>
+
+       <div class=" col-12  bg-light border border-1 rounded rounded-3 p-5 mt-5">
+            <h2>PAYMENT:</h2>
+            <div class="row">
+                <div class="col-md-7">
+                <div class="mb-4">
+                    <div class="form-label">
+                        <label for="nameofcard"> Name of Card:
+                        </label>
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" id="nameofcard" placeholder="Mr.Ali Mohammed" required="required">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="form-label">
+                        <label for="card#"> Credit Card Number:
+                        </label>
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" id="card#" placeholder="1111 222 333" required="required">
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="row">
+                    <div class="col-6 mt-2">
+                        <label for="month"> Exp. month:</label> 
+                            <select name="" id="month" class="form-select" required="required">
+                            <option value="" hidden aria-readonly="true">Choose </option>
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="form-label">
+                             <label for="year"> Exp. year:</label>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control" id="year">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    <div class="mb-4">
+                        <div class="form-label">
+                            <label for="cvv"> CVV:</label>
+                       </div>
+                       <div>
+                           <input type="text" class="form-control form1" id="cvv" placeholder="1234" required>
+                       </div>
+                    </div>
+
+
+        </div>
+
+        <div class="col-5">
+
+          <div class="row">
+            <div class="col-md-4">
+            Acctepted Cards:
+            </div>
+
+            <div class="col-md-8">
+              <div> 
+              <div><img src="paypal.jpg" alt="" class="cards"></div>
+              <div><img src="mastercard.jpg" alt="" class="cards"></div>
+              <div><img src="visa.jpg" alt="" class="cards"></div>   
+            </div>
+          </div>
+
+          </div>
+          
+        </div>
+
+        <div class=" pt-4 ">
+          <input type="submit" value="Pay Now" class="form-control form1" required>
+        </div>
+
+
+
+        </div>
+
+        </div>
+
+        
+
+
+
+
+
+        </div>
+
+            </div>
+       </div>
+
+            
+        </div>
+
+        
+
+        <div>
+
+        </div>
+
+
+        
+
+            
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <footer class="text-center text-lg-start bg-light text-muted mt-5 ">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+  
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+  
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>DREAM SWEETS BAKERY
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" class="text-reset">Breads</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sweets</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sandwiches</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Drinks</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Cakes</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i><ion-icon name="location-outline"></ion-icon> Loza, Hebron, Palestine</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  <ion-icon name="mail-outline"></ion-icon> aseelma2021@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> <ion-icon name="call-outline"></ion-icon> 0594542664</p>
+                <p><i class="fas fa-print me-3"></i> <ion-icon name="logo-instagram"></ion-icon> aseelma96</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+  
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="finalProject.html"
+            >Dream Sweet Bakery</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+
+
+
+
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
